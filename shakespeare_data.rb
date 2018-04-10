@@ -16,10 +16,10 @@ words.each do |word|
   end
 
 
-  a = frequence.sort_by { |word, count| count }
-  a = a.reverse
-  puts a.inspect
-
+b = frequence.sort_by { |word, count| count }
+  b = b.reverse
+  puts b.inspect
+=begin
   for n in 1..7
     if n == word
       puts a
@@ -29,3 +29,8 @@ words.each do |word|
 
 
 [a].include?
+
+words.each do |word|
+  frequence[word] += 1
+  end
+=end 
