@@ -19,3 +19,13 @@ words.each do |word|
   a = frequence.sort_by { |word, count| count }
   a = a.reverse
   puts a.inspect
+
+  for n in 1..7
+    if n == word
+      puts a
+    else
+      puts "pas de gros mots"
+  end
+
+
+[a].include?
