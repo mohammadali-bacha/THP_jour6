@@ -9,8 +9,8 @@ def summon
       #puts add[998]
 end
 
-def perform
-  summon
+def perform #fonction perform comme demandee
+  summon #appelle la function summon pour afficher sum
 end
 
 perform
