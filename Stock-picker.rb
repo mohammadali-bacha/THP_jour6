@@ -5,14 +5,6 @@ def trader_du_dimanche
 end
 
 
-
-
-
-
-
-
-
-
 def trader_du_lundi
 
 end
